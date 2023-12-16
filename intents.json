@@ -3,42 +3,57 @@
     {
       "tag": "greetings",
       "patterns": ["hi","hello","whats up", "hey"],
-      "response": ["hello, how can I help you today?"]
+      "responses": ["hello, how can I help you today?", "Hi, I'm BreastBot", "Hi, I am here to answer all your breast cancer queries"]
     },
     {
       "tag": "intro",
       "patterns": ["What is breast cancer?","tell me about breast cancer","introduce me to breast cancer"],
-      "response": ["Breast cancer is a type of cancer that forms in the cells of the breast. It usually starts in the ducts or lobules, which are the glands responsible for milk production. It can affect both men and women, although it's much more common in women."]
+      "responses": ["Breast cancer is a type of cancer that forms in the cells of the breast. It usually starts in the ducts or lobules, which are the glands responsible for milk production. It can affect both men and women, although it's much more common in women."]
     },
     {
       "tag": "signs",
       "patterns": ["what are the symptoms?","What are the signs?"],
-      "response": ["Signs and symptoms of breast cancer can include a lump or thickening in the breast or underarm area, changes in the size or shape of the breast, nipple changes, such as inversion, redness, or discharge, skin changes on the breast, like dimpling or puckering, breast pain that doesn’t go away."]
+      "responses": ["Signs and symptoms of breast cancer can include a lump or thickening in the breast or underarm area, changes in the size or shape of the breast, nipple changes, such as inversion, redness, or discharge, skin changes on the breast, like dimpling or puckering, breast pain that doesn’t go away."]
     },
     {
       "tag": "detection-method",
       "patterns": ["how is it detected?","how it can be detected?"],
-      "response": ["Early detection is crucial for successful treatment. Mammograms, clinical breast exams, and self-examinations can help detect abnormalities. If breast cancer is suspected, further tests like biopsies may be conducted to confirm the diagnosis."]
+      "responses": ["Early detection is crucial for successful treatment. Mammograms, clinical breast exams, and self-examinations can help detect abnormalities. If breast cancer is suspected, further tests like biopsies may be conducted to confirm the diagnosis."]
     },
     {
       "tag": "treatment",
       "patterns": ["is it curable?","how it can be treated?"],
-      "response": ["Treatment options depend on the type and stage of cancer and may involve surgery, radiation, chemotherapy, hormone therapy, targeted therapy, or a combination of these. The goal is to remove the cancer, prevent its spread, and reduce the chances of recurrence. Awareness, regular screenings, maintaining a healthy lifestyle, and understanding one’s risk factors can all contribute to early detection and better outcomes in breast cancer management."]
+      "responses": ["Treatment options depend on the type and stage of cancer and may involve surgery, radiation, chemotherapy, hormone therapy, targeted therapy, or a combination of these. The goal is to remove the cancer, prevent its spread, and reduce the chances of recurrence. Awareness, regular screenings, maintaining a healthy lifestyle, and understanding one’s risk factors can all contribute to early detection and better outcomes in breast cancer management."]
     },
     {
       "tag": "types",
       "patterns": ["what are its types?","are there any types?", "tell me about its types"],
-      "response": ["Breast tumors can be classified as either malignant or benign based on their behavior and potential to spread. Malignant Breast Tumors are cancerous and have the potential to invade nearby tissues and spread to other parts of the body, a process known as metastasis.Benign Breast Tumors are non-cancerous and do not invade nearby tissues or spread to other parts of the body."]
+      "responses": ["Breast tumors can be classified as either malignant or benign based on their behavior and potential to spread. Malignant Breast Tumors are cancerous and have the potential to invade nearby tissues and spread to other parts of the body, a process known as metastasis.Benign Breast Tumors are non-cancerous and do not invade nearby tissues or spread to other parts of the body."]
     },
     {
       "tag": "thankyou",
       "patterns": ["thank you","thanks"],
-      "response": ["Happy to help :)"]
+      "responses": ["Happy to help :)"]
     },
     {
       "tag": "bye",
       "patterns": ["bye","goodbye"],
-      "response": ["have a good day"]
+      "responses": ["have a good day"]
+    },
+    {
+      "tag": "risk-factors",
+      "patterns": ["What are the risk factors for breast cancer?"," risk factors for breast cancer", "tell me risk factors"],
+      "responses": ["Risk factors include age, family history, certain genetic mutations (like BRCA1 and BRCA2), hormone levels, obesity, alcohol consumption, and previous radiation therapy."]
+    },
+    {
+      "tag": "prevention",
+      "patterns": ["What are some prevention techniques for breast cancer?"," prevention for breast cancer", "how to prevent breast cancer"],
+      "responses": ["While there's no guaranteed way to prevent breast cancer, maintaining a healthy lifestyle, avoiding excessive alcohol consumption, staying physically active, and managing weight can help reduce the risk."]
+    },
+    {
+      "tag": "early-detection",
+      "patterns": ["What is the importance of early detection in breast cancer?"," importance of early detection"],
+      "responses": ["Early detection significantly improves the chances of successful treatment. Regular screenings and prompt medical attention upon noticing any changes in the breast are crucial."]
     }
   ]
 }
